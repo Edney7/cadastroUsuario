@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+    <ul>
+        <% clientes.forEach(cliente => { %>
+            <li><%= cliente.name %> - <%= cliente.address %> - <%= cliente.city %> - <%= cliente.cpf %> - <%= cliente.rg %> - <%= cliente.phone %></li>
+        <% }); %>
+    </ul>
+    <a href="/clientes">Voltar ao formulário de cadastro</a>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Definindo o estilo base da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Cor de fundo leve e suave */
+    color: #333; /* Cor do texto padrão */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilizando o título */
+.h1 {
+    color: #0056b3; /* Azul mais escuro para o título */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilizando o formulário */
+form {
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilizando os rótulos dos campos */
+label {
+    display:block;
+    margin-bottom: 8px;
+    color: #0056b3; /* Azul escuro para os rótulos */
+    font-weight: bold;
+    height: 30px;
+}
+
+/* Estilizando os campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    height: 10px;
+    padding: 15px;
+    margin-bottom: 12px; /* Espaçamento entre os campos */
+    border: 1px solid #c0c0c0; /* Bordas cinza claras */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px;
+}
+
+/* Estilizando o botão de envio */
+button {
+    background-color: #0056b3; /* Azul escuro para o botão */
+    color: #ffffff; /* Texto branco no botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Estilo para o botão quando o mouse passa sobre ele */
+button:hover {
+    background-color: #004494; /* Azul ainda mais escuro para o efeito hover */
+}
